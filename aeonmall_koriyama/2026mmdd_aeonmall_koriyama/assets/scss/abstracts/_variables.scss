@@ -1,0 +1,51 @@
+// フォントサイズ
+$fs-xxl: 4.2rem; // h1 超大見出し
+$fs-xl: 3.2rem; // h2 大見出し
+$fs-lg: 3rem; // h3 見出し
+$fs-md: 2.8rem; // h3 見出し
+$fs-bmd: 2.4rem; // h4 小見出し
+$fs-smd: 2rem; // h4 小見出し
+$fs-sm: 1.8rem; // h4 小見出し
+$fs-base: 1.5rem; // 本文
+$fs-xxs: 1.3rem; // 注釈・補助
+$fs-xxx: 1.2rem; // さらに小さい補助文字
+$fs-xxxs: 1rem;
+
+// ======================================
+// Color Variables
+// ======================================
+
+// ブランド・見出し系
+$color-corporate: #b50080; // メインカラー
+$color-main: #6a004b; // 見出し
+$color-accent: #fdc700; // アクセント
+
+// テキスト系
+$color-text: #424242; // 本文
+$color-subheading: #212121; // 小見出し
+$color-note: #757575; // 注釈
+$color-copyright: #616161; // コピーライト
+
+$color-border: #bdbdbd; // ボタン枠線
+
+// モノトーン
+$color-black: #000000; // 完全ブラック
+$color-white: #ffffff; // 完全ホワイト
+
+// ======================================
+// Font Family
+// ======================================
+
+// 日本語ベース
+$font-jp-base: "Noto Sans CJK JP", "Noto Sans JP", sans-serif;
+
+// 日本語 見出し用（一部使用）
+$font-jp-heading: "Toppan Bunkyu Midashi Gothic", "Noto Sans CJK JP", sans-serif;
+
+// 英字
+$font-en-base: "Century Gothic Pro", "Century Gothic", sans-serif;
+
+// 使用用途別フォント
+$font-base: $font-jp-base; // 本文（日本語）
+$font-heading: $font-jp-heading; // 見出し（日本語・一部）
+$font-en: $font-en-base; // 英字表記

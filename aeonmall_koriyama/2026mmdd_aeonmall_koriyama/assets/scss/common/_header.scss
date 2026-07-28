@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as *;
+
+.header {
+    height: fit-content;
+    max-height: 78px;
+    background-color: #fff;
+    &__container {
+        padding: 1.6rem;
+    }
+    &__logo {
+        text-align: center;
+        > img {
+            width: 100%;
+            max-width: 188px;
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+// -----------------------------
+// ブレイクポイント
+// -----------------------------
+$breakpoints: (
+  tb: 768px,
+  pc: 1024px
+);
+
+// -----------------------------
+// モバイルファースト用 mq() ミックスイン
+// PC以上(min-width)用
+// usage: @include mq(pc) { ... }
+// -----------------------------
+@mixin mq($device) {
+  @if map-has-key($breakpoints, $device) {
+    @media (min-width: map-get($breakpoints, $device)) {
+      @content;
+    }
+  } @else {
+    @warn "No value found for breakpoint `#{$device}`.";
+  }
+}
